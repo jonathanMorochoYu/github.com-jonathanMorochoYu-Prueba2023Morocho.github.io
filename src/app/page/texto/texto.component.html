@@ -1,0 +1,16 @@
+<p>Listado de Carreras</p>
+
+<span *ngIf="listadoCarreras.length == 0">
+    No existen Carreras
+</span>
+
+<ul>
+    <li *ngFor="let carrera of listadoCarreras">
+        <a >{{carrera.nombre}} | {{carrera.horas}} | {{carrera.tiempo}}</a>
+        <a href="" (click)="eliminar($event,carrera)">Eliminar</a>
+        
+        
+
+    </li>
+    
+</ul>

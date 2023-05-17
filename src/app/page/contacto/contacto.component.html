@@ -1,0 +1,12 @@
+<label for="txtNombre">Nombre de la Carrera</label>
+<input id="txtNombre" [(ngModel)]="carrera.nombre"/>
+<br/>
+<label for="txtHoras">Horas por ciclo:</label>
+<input id="txtHoras" [(ngModel)]="carrera.horas"/>
+<br/>
+<label for="txtTiempo">Tiempo de la Carrera:</label>
+<input id="txtTiempo" [(ngModel)]="carrera.tiempo"/>
+<br/>
+<br/>
+
+<button (click)="guardar()">Guardar</button>

@@ -1,0 +1,45 @@
+nav {
+    float: left;
+  }
+  
+  ul {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  li {
+    margin: 0;
+    padding: 10px;
+    background-color: lightgray;
+    border-bottom: 1px solid white;
+  }
+  li:last-child {
+    border-bottom: none;
+  }
+  
+  a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  a:hover {
+    background-color: #555;
+  }
+  
+  .contenido {
+    float: left;
+  }
+
+  p {
+    text-align: left;
+  }
+
+  #izquierda {
+    width: 25%;
+    float: left;
+    background-color: lightgray;
+  }
